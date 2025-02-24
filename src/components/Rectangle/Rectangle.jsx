@@ -5,13 +5,13 @@ const Rectangle = ({ width }) => {
   return (
     <>
     <img
-      src="/rectangle.svg"
+      src="./rectangle.svg"
       alt="Rectangle"
       className="rectangle"
       width={width}
     />
     <img
-      src="/rectangle-pc.svg"
+      src="./rectangle-pc.svg"
       alt="Rectangle"
       className="rectangle-pc"
     />
