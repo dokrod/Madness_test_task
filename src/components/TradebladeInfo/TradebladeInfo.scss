@@ -1,0 +1,55 @@
+.tradeblade-info{
+  background: #030718;
+  padding: 125px 16px;
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__img {
+    height: 56px;
+    width: 56px;
+  }
+
+  &__item {
+    display: flex;
+    gap: 32px;
+
+    &-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -4%;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    &-text {
+      font-family: IBM Plex Sans;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #c1c3c3;
+    }
+  }
+}
+
+.tradeblade-info .title {
+  margin-top: 56px;
+}
+
+@media (min-width: 1024px) {
+  .tradeblade-info {
+    padding: 96px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

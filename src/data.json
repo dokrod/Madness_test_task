@@ -1,0 +1,66 @@
+[
+  {
+    "pair": "NEAR/USDT",
+    "type": "SPOT",
+    "time": "1 мин. назад",
+    "profit": "58.6206%",
+    "target": "Цель 4",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "BTC/USDT",
+    "type": "SPOT",
+    "time": "5 мин. назад",
+    "profit": "5.02%",
+    "target": "Цель 3",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "ETH/USDT",
+    "type": "SPOT",
+    "time": "5 мин. назад",
+    "profit": "16.3%",
+    "target": "Цель 4",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "NEAR/USDT",
+    "type": "SPOT",
+    "time": "5 мин. назад",
+    "profit": "0.963%",
+    "target": "Цель 2",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "BTC/USDT",
+    "type": "FUTURES",
+    "time": "5 мин. назад",
+    "profit": "12.3456%",
+    "target": "Цель 4",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "MEME/USDT",
+    "type": "FUTURES",
+    "time": "5 мин. назад",
+    "profit": "123.3456%",
+    "target": "Цель 2",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "NOT/USDT",
+    "type": "FUTURES",
+    "time": "5 мин. назад",
+    "profit": "70.3456%",
+    "target": "Цель 3",
+    "entryDate": "05.10.2022"
+  },
+  {
+    "pair": "1INCH/USDT",
+    "type": "SPOT",
+    "time": "5 мин. назад",
+    "profit": "22.4%",
+    "target": "Цель 1",
+    "entryDate": "05.10.2022"
+  }
+]

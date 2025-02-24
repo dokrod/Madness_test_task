@@ -1,0 +1,64 @@
+.faq {
+  padding: 56px 16px;
+
+  &__title {
+    color: #030718;
+    margin-bottom: 40px;
+  }
+}
+
+.MuiAccordion-root {
+  margin-bottom: 10px;
+  overflow: hidden;
+
+  &.Mui-expanded {
+    background-color: #f0f8ff;
+
+    .MuiAccordionSummary-root {
+      background-color: #6A54FF;
+      color: #fff;
+      padding: 0 16px;
+    }
+
+    .MuiTypography-root {
+      font-weight: 500 !important;
+      font-size: 20px !important;
+      line-height: 28px !important;
+      letter-spacing: -4% !important;
+    }
+
+    .MuiAccordionDetails-root {
+      background-color: #6A54FF;
+      color: #fff;
+      font-weight: 400 !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
+    }
+  }
+
+  .MuiAccordionSummary-root {
+    background-color: #EAEFF0;
+    color: #030718;
+    padding: 16px;
+
+    .MuiTypography-root {
+      font-weight: 500 !important;
+      font-size: 20px !important;
+      line-height: 28px !important;
+      letter-spacing: -4% !important;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 80px;
+  }
+
+  .MuiAccordion-root {
+    width: 850px;
+  }
+}

@@ -1,0 +1,187 @@
+.tariffs {
+  display: flex;
+  justify-content: center;
+  padding: 56px 16px 44px;
+  background-color: #030718;
+  color: #fff;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;  
+  }
+
+  &__handler {
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    width: 100%;
+    height: 52px;
+    padding: 4px ;
+    background: #2C2674;
+    border-radius: 4px;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    width: 100%;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: #57E1FF;
+
+    &--active {
+      background: #57E1FF;
+      border-radius: 4px;
+      color: #030718;
+      font-weight: 700;
+    }
+
+    &-try {
+      width: 100%;
+      height: 52px;
+      margin-top: 24px;
+      background: #57E1FF;
+      border: none;
+      border-radius: 4px;
+
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &-text {
+      text-transform: none;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &-standart {
+      width: 100%;
+      padding: 16px;
+      border: 1px solid #6A54FF;
+      border-radius: 8px;
+    }
+
+    &-vip {
+      padding: 16px;
+      background: #6A54FF;
+      border-radius: 8px;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -4%;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+
+    &-item {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      border-bottom: 1px dotted #dad3d3;
+      padding-bottom: 8px;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 4px;
+        background: url(../../../public/icon/ok-icon.svg) no-repeat;
+      }
+    }
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+
+    &-value {
+      position: relative;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 40px;
+      letter-spacing: -4%;
+    }
+
+    &-discount {
+      position: absolute;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: -4%;
+      color: #35FF9E;
+    }
+  }
+
+  &__select {
+    height: 36px;
+    background: #FFFFFF33;
+    
+    .MuiSelect-select {
+      font-weight: 400 !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      letter-spacing: 0% !important;
+      text-align: right !important;
+      color: #FFFFFF !important;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiSvgIcon-root {
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .tariffs {
+    padding: 96px 80px;
+
+    &__handler {
+      max-width: 415px;
+    }
+
+    &__item {
+      flex-direction: row;
+
+      > * {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 415px;
+      }
+    }
+
+    &__container {
+      margin-top: auto;
+    }
+  }
+}
